@@ -1,18 +1,18 @@
 import React from 'react';
 import { NavLink } from 'react-bootstrap';
 import Images1 from '../../imges/2-1536x1536.jpg'
-import Images2 from '../../imges/3-1536x1536.jpg'
-import Images3 from '../../imges/320243841_1253864268528399_6451799719777868223_n-1536x1536.jpg'
+import Images2 from '../../imges/6-1536x1536 (1).jpg'
+import Images3 from '../../imges/body.jpg'
 import Images4 from '../../imges/4-1536x1536.jpg'
-import Images5 from '../../imges/6-1536x1536 (1).jpg'
-import Images6 from '../../imges/6-1536x1536.jpg'
+import Images5 from '../../imges/images5.jpg'
+import Images6 from '../../imges/images6.jpg'
 
 const ProductDetails = () => {
     return (
         <div className='mt-5'>
             <div className='d-flex flex-column justify-content-center align-items-center mt-5'>
                 <h3 className='text-white'>বিশেষ মুহূর্তে দুর্ব'লতায় ভুগছেন? স্ত্রীর কাছে ল'জ্জিত?</h3>
-                <button  className='btn  btn-info btn-lg mt-4'>  অর্ডার করুন</button>
+                <a href="#form" className='btn btn-info btn-lg mt-5' rel="noopener noreferrer">অর্ডার করুন</a>
             </div>
             <div className='container mt-4'>
                 <div class="row row-cols-1 row-cols-md-3 g-4">

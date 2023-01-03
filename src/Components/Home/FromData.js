@@ -7,7 +7,7 @@ import Swal from 'sweetalert2'
 
 // CommonJS
 
-import productimages from '../../imges/322191932_701246851400377_5819602522813003339_n.jpg'
+import productImage from '../../imges/productsimages.jpg'
 
 const FromData = () => {
     const form = useRef();
@@ -15,7 +15,7 @@ const FromData = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        
+
 
         emailjs.sendForm('service_ye0q7ol', 'template_yehb943', form.current, 'uh0ywcaFPq0jwktAH')
             .then((result) => {
@@ -37,7 +37,7 @@ const FromData = () => {
     };
 
     return (
-        <div className='contact_body '>
+        <div id='form' className='contact_body '>
             <div class="contain ">
 
                 <div class="wrapper">
@@ -54,10 +54,10 @@ const FromData = () => {
                                 <input id="email" class="form-input" name="number" type="number" placeholder="আপনার ফোন নাম্বারঃ *" />
 
                             </p>
-                            <p class="full-width">
+                            {/* <p class="full-width">
                                 <input id="company-name" class="form-input" name="user_email" type="email" placeholder="Email" required />
 
-                            </p>
+                            </p> */}
                             <p class="full-width">
                                 <input id="company-name" class="form-input" type="address" placeholder="আপনার ঠিকানাঃ *" required />
 
@@ -85,7 +85,7 @@ const FromData = () => {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row"><img className='w-25 h-25 rounded-circle' src={productimages} alt="..." /></th>
+                                        <th scope="row"><img className='w-25 h-25 rounded-circle' src={productImage} alt="..." /></th>
 
                                         <td>1</td>
                                         <td>১৯৯০ ৳</td>
@@ -100,15 +100,16 @@ const FromData = () => {
                         </div>
                         <div className='d-flex justify-content-between'>
                             <p>Subtotal</p>
-                            <p>1499 ৳</p>
+                            <p>১৩৯৯ ৳</p>
                         </div>
                         <div className='d-flex justify-content-between mt-4'>
                             <p>Shipping</p>
-                            <p>100৳</p>
+                            <p>ডেলিভারি চার্জ ফ্রি
+                            </p>
                         </div>
                         <div className='d-flex justify-content-between mt-4'>
                             <p>Total</p>
-                            <p>1599৳</p>
+                            <p>১৩৯৯ ৳</p>
                         </div>
                         <p className='bg-success p-3 text-white'>পেমেন্ট</p>
                         <div>
