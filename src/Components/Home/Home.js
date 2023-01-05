@@ -10,7 +10,7 @@ const Home = () => {
                 {/* <h4 className='mt-3 text-center text-white'>Emai: mdmontasirmahmood211199@gmail.com </h4> */}
             </div>
             <div className='mt-3 container'>
-                <h3 className='Home-service p-4 text-white text-center' >জীবনের প্রকৃত সুখ যেখানে নীহিত সেখানেই যদি হয় দুর্ব’লতা তবে এই 'ARABIAN COFFEE' কফি টি আপনার জন্য!</h3>
+                <h3 className='Home-service p-4 text-info text-center' >জীবনের প্রকৃত সুখ যেখানে নীহিত সেখানেই যদি হয় দুর্ব’লতা তবে এই 'ARABIAN COFFEE' কফি টি আপনার জন্য!</h3>
             </div>
         </div>
     );

@@ -9,6 +9,10 @@ background: #231F37;
   color: #fff;
   transform: scale(1.05);
 }
+.social{
+  cursor: pointer;
+  
+}
 
 
 
